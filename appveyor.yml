@@ -3,8 +3,8 @@ clone_depth: 5
 environment:
   nodejs_version: "6"
   access_token:
-    secure: cZauP/jTzWbKsXsnJXXI7N7AWbg6rZpMOn9TSEwQf/twfyUB2+iHvbg0QN29lays
-
+    secure: eYuTa3UYVWSmxCY4TWdgAwtpI7b22IQ3QkRgI/aEaFlbzMn/VAtlmC2gE6aWL3dR
+    
 install:
  # Get the latest stable version of Node.js or io.js
   - ps: Install-Product node $env:nodejs_version
